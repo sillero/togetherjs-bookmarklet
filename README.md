@@ -1,7 +1,7 @@
 togetherjs-bookmarklet
 ======================
 
-Just a bookmarklet for a easier use of the [TogetherJS](https://togetherjs.com) javascript collaboration library by [Mozilla](https://mozilla.org)
+Just a bookmarklet for a lazier use of the [TogetherJS](https://togetherjs.com) javascript collaboration library by [Mozilla](https://mozilla.org)
 
 ###Bookmarklet
 ```javascript
