@@ -28,13 +28,9 @@
         </ul>
       </header>
       <section>
-        <h1>
-<a name="togetherjs-bookmarklet" class="anchor" href="#togetherjs-bookmarklet"><span class="octicon octicon-link"></span></a>togetherjs-bookmarklet</h1>
 
-<p>Just a bookmarklet for a lazier use of the <a href="https://togetherjs.com">TogetherJS</a> javascript collaboration library by <a href="https://mozilla.org">Mozilla</a></p>
-
-<p><a>TogetherJS</a>
-    ⇦ drag this to your bookmarks or click to test it</p>
+<p><a href="javascript:(function(e,t,n){var r=function(){var t=function(e){e=e||10;var t='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUV0123456789';var n='';for(var r=0;r<e;r++){n+=t.charAt(Math.floor(Math.random()*t.length))}return n},n=t(),r=e.prompt('Type session ID to join or create\n (default is \'together\')')||'together',i={reason:'started',shareId:r,running:true,date:Date.now(),sessionId:n};if(typeof sessionStorage['togetherjs-session.status']!=='undefined'){i=JSON.parse(sessionStorage['togetherjs-session.status']);i.shareId=r;i.running=true}i=JSON.stringify(i);return i}();sessionStorage['togetherjs-session.status']=r;if(typeof TogetherJS!=='undefined'){if(TogetherJS._loaded){TogetherJS.on('close',function(){TogetherJS(e)});TogetherJS(e)}else{TogetherJS(e)}}else{var i=t.createElement('script'),s='https://togetherjs.com/togetherjs-min.js';i.setAttribute('src',s);t.body.appendChild(i)}})(window,document)">TogetherJS</a>
+	<span>&#x21E6; drag this to your bookmarks or click to test it</span>
 
 <h3>
 <a name="bookmarklet" class="anchor" href="#bookmarklet"><span class="octicon octicon-link"></span></a>Bookmarklet</h3>
